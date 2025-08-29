@@ -34,9 +34,51 @@
               "icon": "lucide-file",
               "title": "Apple BCM WiFi and bluetooth"
             }
+          },
+          {
+            "id": "bfa9a3332aeba9e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "31b3fb798a98778d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "971165d298d64b94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "T2 MacBook Brightness Control Runbook.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "T2 MacBook Brightness Control Runbook"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -93,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "3a1c9aed5f776ea8",
@@ -184,10 +226,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "52fd1ecd0c2e615d",
+  "active": "971165d298d64b94",
   "lastOpenFiles": [
+    "Home.md",
+    "T2 MacBook Brightness Control Runbook.md",
+    "Bluetooth exploration.md",
     "Hyprdock Clamshell mode.md",
-    "Apple BCM WiFi and bluetooth.md",
+    "Apple BCM WiFi.md",
     "Omarchy Setup diary.md"
   ]
 }
