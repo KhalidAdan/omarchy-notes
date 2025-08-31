@@ -103,6 +103,15 @@ bind = , XF86MonBrightnessUp, exec, ~/.local/bin/brightness.sh up
 bind = , XF86MonBrightnessDown, exec, ~/.local/bin/brightness.sh down
 ```
 
+```bash
+#!/bin/bash
+# Simple brightness control for Apple display only
+
+case "$1" in
+    "up") brightnessctl -d acpi_video0 s +5% ;;
+    "down") brightnessctl -d acpi_video0 s 5%- ;;
+esac
+```
 ---
 
 ## 2. External Monitor DDC Issues on T2 Macs
@@ -174,7 +183,7 @@ hyprctl hyprsunset gamma 150  # Brighter (150%)
 hyprctl hyprsunset identity   # Reset to normal (100%)
 ```
 
-### Method 2: Custom External Monitor Script
+### Method 2: Custom External Monitor Script (Failed)
 
 ```bash
 # Create ~/.local/bin/external-brightness.sh
